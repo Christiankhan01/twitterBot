@@ -1,7 +1,14 @@
 {
-  "name": "TwitterBot",
+  "name": "jokeBOt",
   "version": "1.0.0",
+  "description": "RESTful Service for sending json-payloads to client",
   "main": "index.js",
-  "author": "CK",
-  "license": "MIT"
+  "repository": "https://github.com/Christiankhan01/twitterBot.git",
+  "author": "Christian Khan <christiankhan@Hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "dotenv": "^8.2.0",
+    "twitter": "^1.7.1"
+  }
 }
